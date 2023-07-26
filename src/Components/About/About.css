@@ -1,0 +1,119 @@
+body {
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  min-width: 100%;
+}
+@keyframes fadeInUp {
+  from { 
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes leFadeInLeft {
+  from {
+      opacity: 0;
+      transform: translateX(-60px);
+  }
+  to { opacity: 1 }
+}
+
+.aboutDiv{
+  animation: leFadeInLeft 2s ease-in-out 0s forwards;
+}
+
+.introDiv {
+  display: flex;
+  align-items: center;
+}
+
+.MuiTypography-root.fullName {
+  color: #fff;
+  font-family: cursive;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 10vw;
+  animation: leFadeInLeft 2s ease-in-out 0s forwards;
+}
+
+.MuiTypography-root.cardText {
+  color: #fff;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.aboutGlassText {
+  width: auto;
+  height: fit-content;
+  position: relative;
+  z-index: 1;
+  background: inherit;
+  overflow: hidden;
+  max-width: 70%;
+  animation: leFadeInLeft 2s ease-in-out 0s forwards;
+
+}
+
+.aboutGlassText:before {
+  content: "";
+  position: absolute;
+  background: inherit;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: inset 1px 0 200px rgba(255, 255, 255, 0.2);
+  filter: blur(10px);
+  margin: -20px;
+}
+
+.responsiveImg {
+}
+
+@media only screen and (max-width: 600px) {
+  .responsiveImg {
+    width: 34vh;
+  }
+  .introDiv {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .aboutGlassText {
+    width: auto;
+    height: fit-content;
+    position: relative;
+    z-index: 1;
+    background: inherit;
+    overflow: hidden;
+    max-width: 100%;
+  }
+  
+  .aboutGlassText:before {
+    content: "";
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 1px 0 200px rgba(255, 255, 255, 0.2);
+    filter: blur(10px);
+    margin: -20px;
+  }
+
+}

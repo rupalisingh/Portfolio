@@ -1,0 +1,23 @@
+.Navbar {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+  color: #fff;
+  font-family: cursive;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.MuiTypography-root {
+  padding: 1rem;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .Navbar {
+    font-size: 18px;
+    width: 100%;
+  }
+}

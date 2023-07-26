@@ -1,11 +1,11 @@
-import "./App.css";
-import BackgroundAnimation from "./Components/Background/BackgroundAnimation";
-
+import MainPage from "./Components/MainPage/MainPage"
+import "./App.css"
 function App() {
   return (
     <>
-     <BackgroundAnimation></BackgroundAnimation>
-    </>
+        <MainPage/>
+           
+        </>
   );
 }
 

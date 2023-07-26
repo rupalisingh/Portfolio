@@ -1,0 +1,16 @@
+.Skilldiv{
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.MuiTypography-root.skillheader{
+
+}

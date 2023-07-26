@@ -1,0 +1,78 @@
+.project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.MuiTypography-root.projectDescription {
+  padding: 2rem;
+  color: aliceblue;
+  margin-left: 1rem;
+}
+
+.MuiTypography-root.projectDescriptionheader {
+  color: aliceblue;
+  font-weight: 700;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .project {
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  }
+}
+
+
+.projectGlassText {
+  width: auto;
+  height: fit-content;
+  position: relative;
+  z-index: 1;
+  background: inherit;
+  overflow: hidden;
+  max-width: 70%;
+}
+
+.projectGlassText:before {
+  content: "";
+  position: absolute;
+  background: inherit;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: inset 1px 0 200px rgba(255, 255, 255, 0.2);
+  filter: blur(10px);
+  margin: -20px;
+}
+
+.imagecss{
+  border-radius: 15px;
+  box-shadow: 0 60px 123px -25px hsla(225,2%,62%,.42), 0 35px 75px -35px hsla(225,2%,62%,.08);
+  -webkit-filter: blur(0);
+  filter: blur(0);
+  height: 398px;
+  opacity: 1;
+  -webkit-transform: perspective(800px) rotateY(25deg) scale(.8) rotateX(10deg);
+  transform: perspective(800px) rotateY(25deg) scale(.8) rotateX(10deg);
+  transition: all .6s ease;
+  width: 700px;
+
+  }
+
+  .imagecss:hover{
+    box-shadow: 0 19px 67px -38px hsla(225,2%,62%,.8);
+    -webkit-filter: blur(0.2px);
+    filter: blur(0.2px);
+    opacity: 1;
+    -webkit-transform: perspective(800px) rotateY(-15deg) translateY(-50px) rotateX(0deg) scale(1);
+     transform: perspective(800px) rotateY(-15deg) translateY(-50px) rotateX(0deg) scale(1);
+  
+    }
+
+  
+
