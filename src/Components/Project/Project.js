@@ -5,11 +5,15 @@ import rb from "./rb.png";
 import drishti from "./drishti.png";
 import excelClone from "./excelClone.png";
 import "../Project/Project.css";
+import { scrollTrigger } from "../scrollTrigger";
+
 
 function Project(props) {
+  scrollTrigger('.projectdiv')
+
   return (
     <>
-      <div ref={props.innerRef}>
+      <div ref={props.innerRef} className="projectdiv">
         <div
           style={{ maxWidth: "100%", marginTop: "1rem", marginBottom: "1rem" }}
           className="projectGlassText"

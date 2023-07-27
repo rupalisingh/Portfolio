@@ -1,3 +1,7 @@
+.projectdiv.active{
+  animation: leFadeInLeft 2s ease-in-out 0s forwards;
+}
+
 .project {
   display: flex;
   justify-content: center;

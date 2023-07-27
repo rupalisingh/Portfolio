@@ -3,7 +3,9 @@ import { Typography } from "@mui/material";
 import "./About.css";
 import imageGirl from "./girlImage.png";
 import code from "./code.png";
+import { scrollTrigger } from "../scrollTrigger";
 function About(props) {
+  scrollTrigger('.aboutDiv')
   return (
     <>
       <div className="aboutDiv" ref={props.innerRef}>
