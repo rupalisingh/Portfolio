@@ -7,7 +7,7 @@ function Footer() {
     <>
       <Paper className="PaperFooter">
         <DevJokes />
-        <Typography style = {{color : "whitesmoke"}}>©2023 Rupali Portfolio</Typography>
+        <Typography style = {{color : "whitesmoke"}}>©2023 Coded By Rupali Singh.</Typography>
       </Paper>
     </>
   );

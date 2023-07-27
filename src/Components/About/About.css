@@ -1,6 +1,5 @@
 body {
   background-attachment: fixed;
-  background-size: cover;
   height: 100vh;
   min-width: 100%;
 }
@@ -33,6 +32,7 @@ body {
 .introDiv {
   display: flex;
   align-items: center;
+  justify-content: flex-end;
 }
 
 .MuiTypography-root.fullName {
@@ -48,7 +48,7 @@ body {
 
 .MuiTypography-root.cardText {
   color: #fff;
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -88,9 +88,13 @@ body {
   .responsiveImg {
     width: 34vh;
   }
+  .codeImg{
+    width: 34vh;
+  }
   .introDiv {
     display: flex;
     flex-direction: column-reverse;
+    justify-content: flex-end;
   }
   .aboutGlassText {
     width: auto;
@@ -116,4 +120,8 @@ body {
     margin: -20px;
   }
 
+}
+
+.codeImg{
+  position: absolute;
 }

@@ -19,7 +19,7 @@ function Skills(props) {
                 <DevicesIcon style={{ width: "69px", height: "88px",     marginLeft: "14px" }} />
                 <Typography className="skillheader">Software Development</Typography>
                 </div>
-                <Typography>
+                <Typography style = {{color : "aliceblue"}}>
                     Skilled OOPS concepts and programming Languages - Javascript,
                     Typescript,Java and Python.
                 </Typography>
@@ -32,7 +32,7 @@ function Skills(props) {
                 <Typography className="skillheader">Frontend Development</Typography>
                 </div>
 
-                <Typography>
+                <Typography style = {{color : "aliceblue"}}>
                     Experience in  Reactjs frameworks, 
                     state Management tools like - Redux toolkit, Redux saga, 
                     and Material UI.
@@ -46,7 +46,7 @@ function Skills(props) {
                 <img alt = "icon" style={{ width: "60px", marginLeft : "10px" }} src={nodejsIcon} />
                 <Typography className="skillheader">Backend Development</Typography>
                 </div>
-                <Typography style = {{marginTop : "1.2rem"}}>Over 3 years of Experience in Nodejs, Expressjs framework and Databases like MongoDb.</Typography>
+                <Typography style = {{marginTop : "1.2rem", color : "aliceblue"}}>Over 3 years of Experience in Nodejs, Expressjs framework and Databases like MongoDb.</Typography>
               </div>
             </Grid>
             <Grid item xs={12} sm={6}>
@@ -55,7 +55,7 @@ function Skills(props) {
                 <img alt = "icon" style={{ width: "84px" }} src={AiIcon} />
                 <Typography className="skillheader">Machine Learning</Typography>
                 </div>
-                <Typography style = {{marginTop : "0.75rem"}}>Skilled in Predicitve Modeling and Data Mining, implemented statistical Machine Learning Models.</Typography>
+                <Typography style = {{marginTop : "0.75rem", color : "aliceblue"}}>Skilled in Predicitve Modeling and Data Mining, implemented statistical Machine Learning Models.</Typography>
               </div>
             </Grid>
           </Grid>

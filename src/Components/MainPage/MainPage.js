@@ -10,6 +10,7 @@ import Skills from "../Skills/Skills";
 import Footer from "../Footer/Footer";
 import Fab from "@mui/material/Fab";
 
+
 function MainPage(props) {
   const projectRef = useRef(null);
   const skillRef = useRef(null);
