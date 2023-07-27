@@ -62,7 +62,6 @@ function Project(props) {
               Software - Microsoft Cognitive Service Tool for image recognition.
               Amazon Alexa Deployed to use AWS services and Google OCR.
               <br />
-              Check it out - {`https://rapidbasket.netlify.app`}
             </Typography>
             <div style = {{display: "flex", justifyContent: "center", padding : "1rem"}}>
                 <Button
